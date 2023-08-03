@@ -20,6 +20,7 @@ const SingleProductPage = () => {
   }, [])
 
   return (
+    // <Box></Box>
     <Box w="100%" margin="auto" >
       <Navbar state={state} setstate={setstate} />
       <Image w="100%" h={"80vh"} objectFit={"cover"} src={data.image} />
