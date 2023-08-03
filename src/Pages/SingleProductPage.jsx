@@ -11,7 +11,7 @@ const SingleProductPage = () => {
 
   useEffect(() => {
 
-    axios.get(`http://localhost:8080/restaurants/${id}`)
+    axios.get(`https://determined-gold-jaguar.cyclic.app/restaurants/${id}`)
       .then((res) => {
         setdata(res.data)
         console.log(res.data)

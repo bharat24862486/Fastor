@@ -24,7 +24,7 @@ const Home = () => {
 
 
 
-    axios.get(`http://localhost:8080/restaurants`, ob).then((res) => {
+    axios.get(`https://determined-gold-jaguar.cyclic.app/restaurants`, ob).then((res) => {
       setdata(res.data);
     });
   };
@@ -36,7 +36,7 @@ const Home = () => {
     }
 
     axios
-      .get(`http://localhost:8080/restaurants?_limit=${limit}`)
+      .get(`https://determined-gold-jaguar.cyclic.app/restaurants?_limit=${limit}`)
       .then((res) => {
         setdata2(res.data);
       });
