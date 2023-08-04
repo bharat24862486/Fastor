@@ -64,7 +64,7 @@ const Home = () => {
         <Flex w="90%" margin={"auto"} gap="2%" p="1%" alignItems={"center"}>
           <Text>Pre Order From </Text>
           <Select w="20%" onChange={(e) => setplace(e.target.value)}>
-            <option>Select the location</option>
+            <option value="">Select the location</option>
             <option value="Paharganj">Paharganj</option>
             <option value="Connaught Place">Connaught Place</option>
             <option value="Pitampura">Pitampura</option>
